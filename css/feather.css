@@ -50,3 +50,44 @@ a {
 a:hover {
     color: #1f5ac6;
 }
+
+
+.button {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.btn-white {
+    background-color: #AAA;
+    color: #111;
+}
+.btn-white:hover {
+    background-color: #BBB;
+    color: #000;
+}
+.btn-blue {
+    background-color: #0c00b7;
+    color: #DDD;
+}
+.btn-blue:hover {
+    background-color: #1554f2;
+    color: #DDD;
+}
+.btn-red {
+    background-color: #bf0909;
+    color: #DDD;
+}
+.btn-red:hover {
+    background-color: #f93b3b;
+    color: #DDD;
+}
+.btn-green {
+    background-color: #035e2b;
+    color: #DDD;
+}
+.btn-green:hover {
+    background-color: #0a933f;
+    color: #DDD;
+}
