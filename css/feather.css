@@ -4,7 +4,6 @@
 */
 
 body {
-    width: 90%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
 }
@@ -51,6 +50,51 @@ a:hover {
     color: #1f5ac6;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+}
+.nav ul {
+    width: 90%;
+    margin: 0 auto;
+}
+.nav li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+.nav a {
+    padding: 12px 18px;
+    font-size: 16px;
+    color: #000;
+}
+
+.nav-light {
+    background-color: #e2e2e2;
+    border: 1px solid #d6d6d6;
+    color: #292929;
+}
+.nav-light a {
+    color: #222;
+}
+.nav-light a:hover {
+    background-color: #d6d6d6;
+}
+.nav-dark {
+    background-color: #353535;
+    border: 1px solid #595555;
+} 
+.nav-dark a {
+    color: #DDD;
+}
+.nav-dark a:hover {
+    background-color: #595555;
+} 
+
+
 
 .button {
     display: inline-block;
@@ -91,3 +135,5 @@ a:hover {
     background-color: #0a933f;
     color: #DDD;
 }
+
+
