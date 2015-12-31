@@ -6,6 +6,7 @@
 body {
     margin: 0 auto;
     font-family: Arial, sans-serif;
+    background-color: #d8d8d8;
 }
 
 h1 {
@@ -51,8 +52,9 @@ a:hover {
 }
 
 .container {
-    padding: 0 10%;
+    padding: 20px 10%;
     margin: 0 auto;
+    background-color: #fafafa;
 }
 
 .nav {
@@ -73,15 +75,15 @@ a:hover {
 }
 
 .nav-light {
-    background-color: #e2e2e2;
-    border: 1px solid #d6d6d6;
+    background-color: #e8eae8;
+    border: 1px solid #;
     color: #292929;
 }
 .nav-light a {
     color: #222;
 }
 .nav-light a:hover {
-    background-color: #d6d6d6;
+    background-color: #c6c6c6;
 }
 .nav-dark {
     background-color: #353535;
