@@ -218,11 +218,20 @@ a:hover {
 }
 
 @media (max-width:570px) {
-    .one {
-        width: 48%;
-        float: left;
+    .container {
+        padding: 20px 2%;
+        margin: 0 auto;
+        background-color: #fafafa;
+        clear:both;
     }
-    .two {
+    .container-transparent {
+        padding: 20px 2%;
+        margin: 0 auto;
+        clear:both;
+    }
+    .one, .two {
+        width: 48%;
+        float: left;.
         width: 48%;
         float: left;
     }
