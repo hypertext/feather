@@ -114,6 +114,7 @@ a:hover {
 .btn-white {
     background-color: #AAA;
     color: #111;
+    border: 1px solid #BBB;
 }
 .btn-white:hover {
     background-color: #BBB;
@@ -122,6 +123,7 @@ a:hover {
 .btn-blue {
     background-color: #0c00b7;
     color: #DDD;
+    border: 1px solid #1554f2;
 }
 .btn-blue:hover {
     background-color: #1554f2;
@@ -130,6 +132,7 @@ a:hover {
 .btn-red {
     background-color: #bf0909;
     color: #DDD;
+    border: 1px solid #f93b3b;
 }
 .btn-red:hover {
     background-color: #f93b3b;
@@ -138,6 +141,7 @@ a:hover {
 .btn-green {
     background-color: #035e2b;
     color: #DDD;
+    border: 1px solid #0a933f;
 }
 .btn-green:hover {
     background-color: #0a933f;
