@@ -55,6 +55,12 @@ a:hover {
     padding: 20px 10%;
     margin: 0 auto;
     background-color: #fafafa;
+    clear:both;
+}
+.container-transparent {
+    padding: 20px 10%;
+    margin: 0 auto;
+    clear:both;
 }
 
 .nav {
@@ -139,3 +145,72 @@ a:hover {
 }
 
 
+/* grid of 12 */
+.grid {
+    width: 100%;
+    margin: 10px 1%;
+    background-color: #FFF;
+    text-align: center;
+}
+.grid:first-child { margin-left: 0; }
+.grid:last-child { margin-right: 0; }
+
+.twelve {
+    width: 100%;
+    float: left;
+}
+.eleven {
+    /*width: 91.66%;*/
+    width: 89.66%;
+    float: left;
+}
+.ten {
+    /*width: 83.33%;*/
+    width: 81.33%;
+    float: left;
+}
+.nine {
+    /*width: 75%;*/
+    width: 73%;
+    float: left;
+}
+.eight {
+    /*width: 66.66%;*/
+    width: 64.66%;
+    float: left;
+}
+.seven {
+    /*width: 58.33%;*/
+    width: 56.33%;
+    float: left;
+}
+.six {
+    /*width: 50%;*/
+    width: 48%;
+    float: left;
+}
+.five {
+    /*width: 41.66%;*/
+    width: 39.66%;
+    float: left;
+}
+.four {
+    /*width: 33.33%;*/
+    width: 31.33%;
+    float: left;
+}
+.three {
+    width: 23%;
+    float: left;
+    /*width: 23%;*/
+}
+.two {
+    /*width: 16.67%;*/
+    width: 14.67%;
+    float: left;
+}
+.one {
+    /*width: 8.33%;*/
+    width: 6.33%;
+    float: left;
+}
