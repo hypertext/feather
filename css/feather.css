@@ -10,9 +10,7 @@ body {
 }
 
 h1 {
-    font-size: 3.3em;
-    margin: 20px 0;
-}
+    font-size: 3.3em; margin: 20px 0; }
 h2 {
     font-size: 3em;
     margin: 18px 0;
@@ -217,4 +215,19 @@ a:hover {
     /*width: 8.33%;*/
     width: 6.33%;
     float: left;
+}
+
+@media (max-width:570px) {
+    .one {
+        width: 48%;
+        float: left;
+    }
+    .two {
+        width: 48%;
+        float: left;
+    }
+    .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+        width: 98%;
+        float: left;
+    }
 }
