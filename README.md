@@ -5,7 +5,7 @@ Feather is a minimal CSS framework
 
 ### Features
 - Navigation Bar
-- Grid columns
+- Semi-responsive grid columns
 - Buttons
 
 ### License
