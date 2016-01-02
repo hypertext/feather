@@ -218,6 +218,12 @@ a:hover {
 }
 
 @media (max-width:570px) {
+    .button {
+        margin: 5px auto;
+        max-width: 95%;
+        min-width: 55%;
+        text-align: center;
+    }
     .container {
         padding: 20px 2%;
         margin: 0 auto;
