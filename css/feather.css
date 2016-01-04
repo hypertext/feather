@@ -110,13 +110,31 @@ a:hover {
 }
 
 .btn-white {
+    background-color: #EEE;
+    color: #111;
+    border: 1px solid #CCC;
+}
+.btn-white:hover {
+    background-color: #CCC;
+    color: #111;
+}
+.btn-grey {
     background-color: #AAA;
     color: #111;
     border: 1px solid #BBB;
 }
-.btn-white:hover {
+.btn-grey:hover {
     background-color: #BBB;
     color: #000;
+}
+.btn-black {
+    background-color: #222;
+    color: #DDD;
+    border: 1px solid #000;
+}
+.btn-black:hover {
+    background-color: #000;
+    color: #DDD;
 }
 .btn-blue {
     background-color: #0c00b7;
