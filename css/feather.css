@@ -50,6 +50,7 @@ a:hover {
 }
 
 .container {
+    clear: both;
     padding: 20px 10%;
     margin: 0 auto;
     background-color: #fafafa;
