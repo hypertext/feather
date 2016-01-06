@@ -108,6 +108,7 @@ a:hover {
 .footer li {
 }
 .footer a {
+    line-height: 1.5em;
     color: #222;
 }
 .footer a:hover {
