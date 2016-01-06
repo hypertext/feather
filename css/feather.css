@@ -80,7 +80,6 @@ a:hover {
 
 .nav-light {
     background-color: #e8eae8;
-    border: 1px solid #;
     color: #292929;
 }
 .nav-light a {
@@ -113,6 +112,19 @@ a:hover {
 }
 .footer a:hover {
     color: #000;
+}
+
+.footer-light .grid {
+    background-color: #e8eae8;
+}
+.footer-dark .grid {
+    background-color: #353535;
+}
+.footer-dark a {
+    color: #ccc;
+}
+.footer-dark a:hover {
+    color: #FFF;
 }
 
 
