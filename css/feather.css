@@ -167,11 +167,9 @@ a:hover {
 
 /* grid of 12 */
 .grid {
-    background-color: #DDD;
     text-align: center;
     float:left;
-    margin: 10px -1px;
-    border: 1px solid black;
+    margin: 10px 0px;
 }
 .twelve {
   width: 100%;
