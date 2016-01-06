@@ -100,6 +100,19 @@ a:hover {
     background-color: #595555;
 } 
 
+.footer ul {
+    list-style: none;
+    /* TODO: Why is there a 40px offset? */
+    margin-left: -40px;
+}
+.footer li {
+}
+.footer a {
+    color: #222;
+}
+.footer a:hover {
+    color: #000;
+}
 
 
 .button {
