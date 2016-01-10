@@ -57,9 +57,10 @@ a:hover {
     background-color: #fafafa;
 }
 .container-transparent {
-    padding: 20px 10%;
-    margin: 0 auto;
     clear:both;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: none;
 }
 
 .nav {
@@ -253,7 +254,6 @@ a:hover {
         margin: 5px auto;
         max-width: 95%;
         min-width: 55%;
-        text-align: center;
     }
     .container {
         padding: 20px 2%;
@@ -292,7 +292,6 @@ a:hover {
         margin: 5px auto;
         max-width: 95%;
         min-width: 55%;
-        text-align: center;
     }
     .container {
         padding: 20px 2%;
@@ -331,7 +330,6 @@ a:hover {
         margin: 5px auto;
         max-width: 95%;
         min-width: 55%;
-        text-align: center;
     }
     .container {
         padding: 20px 2%;
