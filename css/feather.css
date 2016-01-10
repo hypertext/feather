@@ -17,7 +17,6 @@ h4, h5, h6 {
     margin: 10px 0px 10px 0px;
     line-height: 1.1em;
 }
-
 h1 {
     font-size: 40px; 
 }
@@ -53,7 +52,7 @@ a:hover {
 
 .container {
     clear: both;
-    padding: 20px 10%;
+    padding: 20px 10px;
     margin: 0 auto;
     background-color: #fafafa;
 }
@@ -236,7 +235,85 @@ a:hover {
   width: 8.33333333%;
 }
 
-@media (max-width:570px) {
+@media (max-width:768px) {
+    .nav {
+        width: 100%;
+    }
+    .nav ul {
+        margin: 0 auto;
+        display: block;
+    }
+    .nav li {
+        width: 100%;
+    }
+    .nav a {
+    }
+
+    .button {
+        margin: 5px auto;
+        max-width: 95%;
+        min-width: 55%;
+        text-align: center;
+    }
+    .container {
+        padding: 20px 2%;
+        margin: 0 auto;
+        background-color: #fafafa;
+        clear:both;
+    }
+    .container-transparent {
+        padding: 20px 2%;
+        margin: 0 auto;
+        clear:both;
+    }
+    .one, .two {
+        width: 50%;
+    }
+    .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
+    .nav {
+        width: 100%;
+    }
+    .nav ul {
+        margin: 0 auto;
+        display: block;
+    }
+    .nav li {
+        width: 100%;
+    }
+    .nav a {
+    }
+
+    .button {
+        margin: 5px auto;
+        max-width: 95%;
+        min-width: 55%;
+        text-align: center;
+    }
+    .container {
+        padding: 20px 2%;
+        margin: 0 auto;
+        background-color: #fafafa;
+        clear:both;
+    }
+    .container-transparent {
+        padding: 20px 2%;
+        margin: 0 auto;
+        clear:both;
+    }
+    .one, .two {
+        width: 50%;
+    }
+    .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+        width: 100%;
+    }
+}
+
+@media (max-width:1200px) {
     .nav {
         width: 100%;
     }
